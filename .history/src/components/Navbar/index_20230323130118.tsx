@@ -125,9 +125,9 @@ export default class Navbar extends React.Component<{}, StateTypes>{
                                 <LocationOn />
                                 <p>Kathmandu, Bagmati</p>
                             </div>
-                            <a href={"tel:+9779813179737"} className={styles.contact}>
+                            <a href={"tel:+9779816514719"} className={styles.contact}>
                                 <Phone />
-                                <div>9813179737</div>
+                                <div>9816514719</div>
                             </a>
                             <a target={"_blank"} href={"mailto: swarsankhadka0000@gmail.com"} className={styles.contact}>
                                 <MailOutlineOutlined />
