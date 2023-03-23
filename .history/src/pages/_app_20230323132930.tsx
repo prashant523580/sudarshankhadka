@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const [isLoading,setIsLoading] = React.useState<boolean>(true);
 
   React.useEffect(() => {
-    AOS.init();
+    // AOS.init();
     setInterval(() => {
         setIsLoading(false)
     },1500)
