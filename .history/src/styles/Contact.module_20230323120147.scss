@@ -1,0 +1,56 @@
+.container_fluid{
+    display: flex;
+    justify-content: center;
+    padding: .3em .6em;
+    .column{
+        margin: 0 .3em;
+        padding: 0 .3em;
+        .h3{
+            font-size: 1em;
+            padding: 1em;
+            text-transform: capitalize;
+        }
+        .img{
+            width: 500px;
+            height: 500px;
+        }
+        .card{
+            background: var(--logo-color);
+            padding: 5px 10px;
+            overflow: hidden;
+            .contact{
+                // font-size: 1.2em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                svg{
+                    font-size: 40px;
+                    color: var(--dark-blue);
+                }
+                p{
+                    color: var(--dark-blue);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .container_fluid{
+        flex-wrap: wrap;
+        .column{
+            .img{
+                width: 300px;
+                height: 300px;
+            }
+            .card{
+                background: var(--light-gray);
+                padding: 5px 10px;
+                .contact{
+                    
+                }
+            }
+        }
+    }
+}
