@@ -16,7 +16,7 @@ export default class Header extends React.Component {
                 <div className={styles.logo}>
                     {/* <img src="/logo.png" alt="logo" width={200} height={150} /> */}
                     <Link href={"/"}>
-                        <h1>SK</h1>
+                        <h1>PT</h1>
                     </Link>
                 </div>
                 <div className={styles.contact_container}>
@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                         <LocationOnOutlined />
                         <div className="info">
                             <h1>Address</h1>
-                            <p>Gwarko Lalitpur</p>
+                            <p>Nepalgunj Banke</p>
                         </div>
                     </div>
                     <Link  className={styles.contact} href={"tel:+9779816514719"}>
@@ -33,7 +33,7 @@ export default class Header extends React.Component {
                         <div className="info">
                             <h1>Phone</h1>
                     <div>
-                            9813179737
+                            9816514719
                         </div>
                     </div>
                     </Link>
@@ -42,7 +42,7 @@ export default class Header extends React.Component {
                         <div className="info">
                             <h1>Email</h1>
                             <div className={""}>
-                            swarsankhadka0000@gmail.com
+                                prashant.thapa62758@gmail.com
                             </div>
                         </div>
                     </Link>

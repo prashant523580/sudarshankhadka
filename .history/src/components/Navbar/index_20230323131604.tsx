@@ -99,7 +99,7 @@ export default class Navbar extends React.Component<{}, StateTypes>{
                             <div className={styles.nav_header}>
                                 <div className={styles.logo}>
                                     {/* <img src="/logo.png" alt="logo" /BTHouse> */}
-                                    SK
+                                    PT
                                 </div>
                                 <Button
                                     onClick={() => this.setState({ isShow: false })}
