@@ -10,10 +10,10 @@ export default function HomeComponent() {
   return (
     <Section id="Home">
       <ParallaxBanner className='relative'>
-        <div className=''>
+        <div className='py-14'>
 
 
-            <div className='h-full py-16 bg-slate-800 z-20 w-full flex flex-col justify-center items-center'>
+            <div className='h-full bg-slate-800 z-20 w-full flex flex-col justify-center items-center'>
 
               <div className="relative  rounded-md overflow-hidden px-4 py-5  flex">
                 <div className="absolute left-0 top-0 w-full h-full opacity-40 z-10 bg-black"></div>

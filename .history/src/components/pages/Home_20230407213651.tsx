@@ -10,10 +10,8 @@ export default function HomeComponent() {
   return (
     <Section id="Home">
       <ParallaxBanner className='relative'>
-        <div className=''>
 
-
-            <div className='h-full py-16 bg-slate-800 z-20 w-full flex flex-col justify-center items-center'>
+            <div className='h-full bg-slate-800 z-20 w-full flex flex-col justify-center items-center'>
 
               <div className="relative  rounded-md overflow-hidden px-4 py-5  flex">
                 <div className="absolute left-0 top-0 w-full h-full opacity-40 z-10 bg-black"></div>
@@ -38,12 +36,11 @@ export default function HomeComponent() {
             <ParallaxBannerLayer image="/images/carousel/carousel-1.jpg" speed={-20} />
         {/* <Carousel>
           <CarouselItem>
-          
-          <Image src={"/images/carousel/carousel-1.jpg"} fill sizes='100vw' alt='cover picture'/>
+
+            <Image src={"/images/carousel/carousel-1.jpg"} fill sizes='100vw' alt='cover picture'/>
           </CarouselItem>
-          
+        
         </Carousel> */}
-        </div>
       </ParallaxBanner>
     </Section>
   )
