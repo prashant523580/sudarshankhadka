@@ -26,7 +26,7 @@ export default function ExperienceComponent() {
                                 <Divider />
                                 <ul className="leading-relaxed dark:text-gray-300 list-disc ml-4">
                                     <li  data-aos="fade-up" data-aos-duration="1000" className='text-gray-300' >
-                                   Working as Assistant Manager.<br />
+                                    Hotel Kathmandu In.<br />
                                         <span className='text-white border-b'>2023 Mar 1 - Running   </span>
                                     </li>
 
@@ -73,10 +73,8 @@ export default function ExperienceComponent() {
                                 <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-sky-400 dark:text-white mb-1 text-xl">KAVERI INN</h2>
                                 <Divider />
                                 <ul data-aos="fade-up" data-aos-duration="1000" className="leading-relaxed dark:text-gray-400 list-disc ml-4">
-                                    <li data-aos="fade-up" data-aos-duration="1000" className='text-gray-300'>A year experience as a receptionist in KAVERI INN, Gyaneshwor Kathmandu <br/>
-                                    <span className='text-white border-b'>2019- 2021   </span>
-                                    </li>
-                                
+                                    <li data-aos="fade-up" data-aos-duration="1000" className='text-gray-300'>A year experience as a receptionist in KAVERI INN, Gyaneshwor Kathmandu</li>
+                           
                                 </ul>
                             </div>
                         </div>

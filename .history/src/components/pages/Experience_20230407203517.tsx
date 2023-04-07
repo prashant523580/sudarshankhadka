@@ -22,36 +22,13 @@ export default function ExperienceComponent() {
                                 }} />
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-sky-400 dark:text-white mb-1 text-xl">Hotel Kathmandu In</h2>
-                                <Divider />
-                                <ul className="leading-relaxed dark:text-gray-300 list-disc ml-4">
-                                    <li  data-aos="fade-up" data-aos-duration="1000" className='text-gray-300' >
-                                   Working as Assistant Manager.<br />
-                                        <span className='text-white border-b'>2023 Mar 1 - Running   </span>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-                        <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-duration="1000" className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-sky-400 text-white relative z-10 title-font font-medium text-sm">1</div>
-                        <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                            <div  data-aos="fade-up" data-aos-duration="1000"  className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-sky-400 rounded-full inline-flex items-center justify-center">
-                                <TungstenIcon style={{
-                                    fontSize: 50
-                                }} />
-                            </div>
-                            <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-sky-400 dark:text-white mb-1 text-xl">Armed Forced Officers Club and Hotel</h2>
                                 <Divider />
                                 <ul className="leading-relaxed dark:text-gray-300 list-disc ml-4">
                                     <li  data-aos="fade-up" data-aos-duration="1000" className='text-gray-300' >
-                                    Worked  in FNB service department at (AFOC) Armed Forced Officers Club and Hotel ,UAE.<br />
-                                        <span className='text-white border-b'>2022 Dec 12 - 2023 Dec 12   </span>
+                                    Worked  in FNB service department at (AFOC) Armed Forced Officers Club and Hotel ,UAE. .<br />
+
+                                        <span className='text-white border-b'>2012 Dec 22</span>
                                     </li>
 
                                 </ul>
@@ -73,10 +50,8 @@ export default function ExperienceComponent() {
                                 <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-sky-400 dark:text-white mb-1 text-xl">KAVERI INN</h2>
                                 <Divider />
                                 <ul data-aos="fade-up" data-aos-duration="1000" className="leading-relaxed dark:text-gray-400 list-disc ml-4">
-                                    <li data-aos="fade-up" data-aos-duration="1000" className='text-gray-300'>A year experience as a receptionist in KAVERI INN, Gyaneshwor Kathmandu <br/>
-                                    <span className='text-white border-b'>2019- 2021   </span>
-                                    </li>
-                                
+                                    <li data-aos="fade-up" data-aos-duration="1000" className='text-gray-300'>A year experience as a receptionist in KAVERI INN, Gyaneshwor Kathmandu</li>
+                           
                                 </ul>
                             </div>
                         </div>
